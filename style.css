@@ -1,0 +1,334 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+}
+
+.header h1 {
+    color: cadetblue;
+    font-size: 3em;
+    margin-top: -10px;
+    margin-left: -20px;
+}
+
+.header ul {
+    display: flex;
+    gap: 60px;
+    font-size: 2em;
+    list-style: none;
+    padding-top: 4px;
+}
+
+.header ul li:hover {
+    color: aliceblue;
+    background-color: green;
+    text-decoration: underline;
+    border-radius: 20px;
+    padding: 5px 17px;
+}
+
+.header ul a {
+    color: black;
+    text-decoration: none;
+}
+
+.header i {
+    font-size: 1.4em;
+    color: aquamarine;
+    display: none;
+}
+
+.boddy {
+    display: flex;
+    justify-content: space-around;
+    background-color: green;
+}
+
+.left {
+    background-color: transparent;
+    width: 400px;
+    height: 300px;
+    margin-top: 8%;
+    margin-left: 8%;
+    color: rgb(7, 1, 1);
+
+}
+
+.left h5 {
+
+    padding-left: 20px;
+    color: yellow;
+
+}
+
+.left h1 {
+    font-size: 2.6em;
+}
+
+.right img {
+    border-radius: 100%;
+    width: 400px;
+
+}
+
+.btn {
+    display: flex;
+    gap: 8px;
+}
+
+.project {
+    background-color: yellow;
+    padding: 5px 20px;
+    border-radius: 12px;
+    font-weight: bolder;
+    box-shadow: 2px 2px 10px;
+}
+
+.search {
+    background-color: transparent;
+    padding: 5px 20px;
+    border-radius: 12px;
+    font-weight: bolder;
+    border: 2px black solid;
+    box-shadow: 2px 2px 10px;
+}
+
+
+
+
+.right img {
+    margin-top: 80px;
+}
+
+.container {
+
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.box1 {
+    width: 300px;
+    height: 400px;
+    background-color: aqua;
+    border-radius: 20px;
+    margin-top: 140px;
+    padding-bottom: 10px;
+}
+
+.box1 img {
+    width: 200px;
+    height: 160px;
+    margin-left: 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+
+}
+
+.box1 h1 {
+    color: red;
+    text-align: center;
+}
+
+.box1 p {
+    padding-left: 10px;
+}
+
+.box1 a {
+    padding-left: 20px;
+    color: red;
+}
+
+.div h1 {
+    color: brown;
+    text-align: center;
+    font-size: 2.6em;
+
+
+}
+
+.div hr {
+    width: 160px;
+    border: 1.3px grey solid;
+    margin-top: -27px;
+
+}
+.footer{
+    background-color: green;
+    margin-top: 30px;
+
+}
+.footer hr{
+    margin: 0 150px;
+    border: 2px solid grey;margin-top: 5px;
+}
+.join{
+    display: flex;
+    justify-content: space-around;
+
+}
+.leftJoin{
+    color: aliceblue;
+
+
+}
+.rightJoin{
+    padding-top: 30px;
+    position: relative;
+}
+.rightJoin input{
+    width: 290px;
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 12px;
+
+}
+.rightJoin button{
+    padding: 13px 30px;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    top: 30px;
+    right: 1px;
+    background-color: yellow;
+}
+.center{
+    display: flex;
+    justify-content: space-around;
+}
+.namd{
+    width: 300px;
+
+}
+.namd h1{
+    color: yellow;
+}
+.namd p{
+    color: gray;
+}
+.links{
+    display: flex;
+    gap: 30px;
+}
+.links h1{
+    color: aliceblue;
+}
+.links ul{
+    list-style: none;
+    color: gray;
+}
+.coppy{
+    text-align: center;
+    color: aliceblue;
+    padding-bottom: 30px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:480px) {
+    .header {
+        padding: 3px 6px;
+    }
+
+    .header h1 {
+        font-size: 1.8em;
+        padding: 5px 5px;
+    }
+
+    .header ul {
+        display: none;
+
+    }
+
+    .header i {
+        display: block;
+
+    }
+
+    .boddy {
+        display: block;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .btn {
+        display: block;
+
+    }
+
+    .left {
+        margin: 0;
+    }
+
+    .project{
+        padding: 13px 130px;
+    }
+
+    .search {
+        padding: 13px 130px;
+        margin-top: 20px;
+
+    }
+    .container{
+        display: block;
+    }
+    .box1{
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    .div hr{
+        margin-top: px;
+    }
+    .div h1{
+        margin-top: 100px;
+    }
+    .center{
+        display: block;
+        margin:  0 5px;
+    }
+    .rightJoin input{
+        width: 400px;
+    }
+    .rightJoin button{
+        position: absolute;
+        right: 10px;
+        /* left: 200px; */
+    }
+    .join{
+        padding: 0 10px;
+    }
+    .join{
+        display: block;
+    }
+    .footer hr{
+        margin: 6px 0;
+    }
+    .links{
+        display: block;
+        padding-left: 20px;
+    }
+    .namd{
+        padding-left: 10px;
+    }
+    
+
+}
